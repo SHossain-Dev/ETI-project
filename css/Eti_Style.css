@@ -334,7 +334,7 @@
 /* start notice */
 
 .discouse {
-	height: 750px
+	height: 750px;
 	width: 100%;
 	background-color: white;
 	border: 1px solid #3B7EB2;
@@ -352,8 +352,13 @@
 #br {
 	margin: 0px;
 }
+
+.hr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 .margin3 {
-	padding: 4% 0px;
+	padding: 1% 0px;
 }
 .margin4 {
 	margin: 0px;
