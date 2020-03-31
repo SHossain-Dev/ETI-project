@@ -27,11 +27,167 @@
 
       </head>
 
+      <style>
 
-  <body>
-    <header>
-        <!-- Header with Background Slider  -->
-        <nav class="navbar sticky-top navbar-light bg-light main-nav">
+    	*{
+    	padding: 0;
+    	margin: 0;
+    	outline:0;
+    }
+
+    body{
+            margin: 5%;
+            margin-top: 0%;
+            margin-bottom: 0%;
+        }
+        .container-fluid {
+
+		grid-area: overlap;
+
+		background-color: blue; 
+
+		display: block ;
+		font-size: 20px; 
+		grid-area: overlap;
+		align-self: center;
+		position: relative;
+		top: -50px;
+
+        }
+
+        .footer {
+  background-image: url('image/footer.png');
+ height:680px;
+ width:100%;
+ position:relative;
+  no-repeat
+}
+  .footer {
+  	padding-top:90px;
+  }
+  #border1 {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.3px;
+    border-color: black;
+}
+#border2 {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.5px;
+    border-color: black;
+}
+#border3 {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+
+#verticle-line1 {
+	width: 0.5px;
+	height: 300px;
+	background-color:black;
+	position: relative;
+}
+
+#links {
+	float:left;
+	text-align: left;
+}
+
+ #icon1 {
+
+
+  background-color: #68b2ff; 
+
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  border-radius: 50%;
+}
+
+#download {
+	background-color:black;
+	text-decoration:white;
+
+}
+
+.option {
+	color:black;
+}
+
+.option:hover {
+	color: #68b2ff;
+
+}
+
+.line-decoration {
+	float:left;
+	width: 100px;
+
+}
+</style>
+
+   <body>
+  	 <!--Breaking news and briefing section start-->
+
+     <section class="brackingnewa" style="padding:0px; margin:0px;">
+        <div class="mt-2 news-20">
+        <div class="row news-read">
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 tag" style="color:white; font-size: 17px; align-content: center; padding-top:12px; padding-bottom: 0px; padding-left:20px; padding-right: 40px;background-color:rgba(0,0,255,0.3);" >Braeking News</div>
+          <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 news">
+            <marquee style="color:white; font-size:17px; padding-top:12px;">
+              This is a sample scrolling text that has scrolls texts to left.
+            </marquee>
+          </div>
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 search-B">
+            <div class="input-group p-1">
+              <input class="form-control border-secondary py-2" type="search" value="search">
+              <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">
+                      <i class="fa fa-search"></i>
+                  </button>
+              </div>
+          </div>
+          </div>
+          <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 mx-auto time"  style="align-content: center; padding-top:0px; padding-bottom: 0px; padding-left:20px; padding-right: 40px; width: 120px;text-align: center;" >
+          <p class="text-center time"  >08:30</p>
+          </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <header style="/*margin:0px; padding:0px;*/">
+
+        <!-- Header with Background Slider 
+        <nav class= " navbar sticky navbar-light bg-light main-nav" >-->
+        	<nav class= "navbar sticky navbar-light bg-light main-nav" >
             <div class="container">
                 <div class="float-left">
                     <img class="navbar-brand" src="image/logo (1).png" alt="logo">
@@ -42,7 +198,7 @@
                 </div>
 
                 <div class="float-right">
-                    <!-- <img class="navbar-brand" src="" alt="logo" height="100px" width="100px"> -->
+                    <!-- <img class="navbar-brand" src="" alt="logo" height="100px" width="100px">--> 
                     <div class="custom-control custom-switch">
   						<input type="checkbox" class="custom-control-input" id="customSwitch1">
   						<label class="custom-control-label" for="customSwitch1"></label>
@@ -81,7 +237,6 @@
 				  
 	</section>
 
-
 <!--Nav bar Section-->
 
 
@@ -89,61 +244,59 @@
       <div class="navbar start">
         <ul class="navbar-nav">
           <li class="nav-item active home page1">
-            <a class="nav-link ribbon ribbon_bookmark" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link ribbon ribbon_bookmark" href="#" style="  padding-right: 16px; padding-left: 15px; padding-top:15px; margin-right: auto; margin-left: auto;" >Home <span class="sr-only">(current)</span></a>
           </li>
 
           <li class="nav-item dropdown about_us">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px; color:white;">
               About Us
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             	<!--<iframe height="300px" width="100%" src="demo_iframe.htm" name="iframe_a"></iframe>-
 
             	<a herf="#down" style="border-top:450px; width:80%; height: 700px;"></a>-->
-              <a id="down" class="dropdown-item" href="new_requrement.html" herf= "#" >Action</a>
+              <a id="down" class="dropdown-item" href="new_requrement.html" herf= "#" >Introducing Eti</a>
 
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Mission Vision</a>
+              <a class="dropdown-item" href="#">Statistics Of training</a>
+              <a class="dropdown-item" href="#"> Former Director/DG</a>
+              <a class="dropdown-item" href="#">General Facilities </a>
             </div>
 
           </li>
           <li class="verticle_line"></li>
           <li class="nav-item feculti_member">
-            <a class="nav-link" href="#">Feculty Memeber</a>
+            <a class="nav-link" href="#"  style="font-size:17px; color:white;">Feculty Memeber</a>
           </li>
           <li class="verticle_line"></li>
           <li class="nav-item dropdown training">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="font-size:17px; color:white;">
               Training
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Capacity building</a>
+              <a class="dropdown-item" href="#">Election related Training</a>
+              <a class="dropdown-item" href="#"> </a>
             </div>
           </li>
           <li class="verticle_line"></li>
-          <li class="nav-item contact">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="verticle_line"></li>
           <li class="nav-item dropdown publication">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="font-size:17px; color:white;">
               Publication
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Manual</a>
+              <a class="dropdown-item" href="#">Reports</a>
+              <a class="dropdown-item" href="#" >Others</a>
             </div>
           </li>
           <li class="verticle_line"></li>
           <li class="nav-item organogram">
-            <a class="nav-link" href="#">Organogram</a>
+            <a class="nav-link" href="#"  style="font-size:17px; color:white;">Organogram</a>
           </li>
           <li class="verticle_line"></li>
           <li class="nav-item research">
-            <a class="nav-link" href="#">Research and Documentation</a>
+            <a class="nav-link" href="#" style="font-size:16px; color:white; ">Research and Documentation</a>
           </li>
         </ul>
       </div>
@@ -153,9 +306,50 @@
 
 <!--Event/ Cources / workplan  section start-->
 
-    <section class="mt-2 box">
+<section class="mt-2 box">
+    	<div class="row text-center ">
+
+    		<div class="col-md-4" style="margin:0px; padding:0px;">
+    			<div class="container col-md-6" style="height: 200px; border: 1px solid black; position: relative; bottom:-5px; background-color: white; margin: 0 auto;box-shadow: 10px -10px blue; padding:0px;" >
+
+          		<div class="icon" style="position: relative; top:35%; ">  <img src="image/event.png" alt=""></div>
+          	</div>
+
+          	<div class="container-fluid col-md-12" style=" margin: 0px; padding:0px; height:100px; background-color:blue; position: relative; text-align: center; padding-top: 10%; color: blue; font-weight: bold; font-size: 20px;">
+          		<p style="color: white;">Event</p>
+
+          	</div>
+    		</div>
+
+    		<div class="col-md-4" style="margin:0px; padding:0px;">
+    			<div class="container col-md-6 " style="height: 200px; border: 1px solid black; position: relative; bottom:-5px; background-color: white; margin: 0 auto; box-shadow: 10px -10px blue; padding:0px;">
+          		<div class="icon" style=" position: relative; top:35%;"> <img src="image/courses.png" alt=""> </div>
+          	</div>
+
+          	<div class="container-fluid col-md-12" style=" margin: 0px; padding:0px; height:100px; background-color:blue; position: relative; text-align: center; padding-top: 10%; color: blue; font-weight: bold;font-size: 20px;">
+          		<p style="color:white;">Courses</p>
+
+          	</div>
+    		</div>
+
+
+    		<div class="col-md-4" style="margin:0px; padding:0px;">
+    			<div class="container  col-md-6" style="height: 200px; border: 1px solid black; position: relative; bottom:-5px; background-color: white; margin: 0 auto; box-shadow: 10px -10px blue; padding:0px;">
+          		<div class="icon" style=" position: relative; top:35%;"> <img src="image/workplan.png" alt=""></div>
+          	</div>
+
+          	<div class="container-fluid col-md-12" style=" margin: 0px; padding:0px; height:100px; background-color:blue; position: relative; text-align: center; padding-top: 10%; color: blue; font-weight: bold;font-size: 20px;">
+          		<p style="color:white;">Workplan</p>
+
+          	</div>
+    		</div>
+
+    	</div>
+</section>
+
+   <!-- <section class="mt-2 box">
         <div class="container work-section">
-          <div class="row">
+          <div class="row" >
             <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 box1">
               <div class="icon"><img src="image/event.png" alt=""></div>
             </div>
@@ -182,10 +376,10 @@
             </div>
           </div>
         </div>
-    </section>
+    </section>-->
  <!--Event/ Cources / workplan  section end-->
 
- <!--Breaking news and briefing section start-->
+ <!--Breaking news and briefing section start
 
      <section class="brackingnewa">
         <div class="mt-2 news-20">
@@ -214,16 +408,16 @@
     </section>
 
 
-<!--breaking news end -->
+breaking news end -->
 
-<!--breaffing start -->
+<!--breaffing startdropdown-toggle id="dropdownMenuButton"-->
 
     <section class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2 dg_andimage">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row">
             <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
             <div class="well w-decoration">
                 <div class="row r-decoration">
-                  <div class="col-sm-6 image i-decoration">
+                  <div class="col-sm-6 image i-decoration"  style="box-shadow:7px 7px 5px grey;">
                     <img src="image/eti.jpeg" alt="eti_event_image" id="img-style">
                   </div>
                   <div class="col-sm-6 image_description">
@@ -241,13 +435,18 @@
                   <!-- <div class="dg_name" style="height: 30px;width: 100%;background-color: rgb(32, 159, 218);">
                     <p class="text-center">Dirctor General</p>
                     </div> -->
+                    <div class="dc-back">
+                  
+                  </div>
                   <div class="dg_image img-DC">
                     <img src="image/Dg picture.jpg" id="imgdc" alt="DG Picture">
                   </div>
+
                   <div class="dg_name img-name">
                   <p class="text-center dc-text">Md. Nuruzzaman Talukdar</p>
                   <p class="text-center dc-story">Dirctor General</p>
                   </div>
+                  
                 </div>
             </div>
         </div>
@@ -745,51 +944,43 @@
         <div class="col-sm-3">
         <div class="well style">
 
-        <div class="card border mb-3 card-design">
-  
-			<div class="card-body text-primary">
-				<h5 class="card-title">Primary card title</h5>
-			    <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			</div>
-		</div>
+        <div class="row">
 
+    			<div class="col-md-2"> 
+    				<img src="image/NoR.png" style=" height:30px;" alt="...">
+    			</div>
 
+    		<div class="col-md-10" >
+    			<p style="font-size:16px;"> <b>Introducing BPATC </b></p>
+    			</div>
 
-   		<div class="card sm-3 style1" >
-  		<div class="row no-gutters">
-    	<div class="col-sm-4">
-      		<img src="image/1.jpg" class="card-img" alt="...">
-    	</div>
-	    <div class="col-md-8">
-	      <div class="card-body">
-	        <h5 class="card-title">Card title</h5>
-	        <p class="card-text">This is a wider card with supporting text below as a natural.</p>
-	      </div>
-	    </div>
-	  	</div>
-		</div>
+    		</div> 
 
-	   <div class="card border- mb-3 style2" >
-	  
-		  <div class="card-body text-primary">
-		    <h5 class="card-title">Primary card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		  </div>
-		</div>
+    		<div class="row">
 
-		    <div class="card sm-3 style3" >
-		  <div class="row no-gutters">
-		    <div class="col-sm-4">
-		      <img src="image/1.jpg" class="card-img" alt="...">
-		    </div>
-		    <div class="col-md-8">
-		      <div class="card-body">
-		        <h5 class="card-title">Card title</h5>
-		        <p class="card-text">This is a wider card with supporting text below as a natural.</p>
-		      </div>
-		    </div>
-		  </div>
-		</div>
+    			<div class="col-md-2"> 
+    				<img src="image/NoR.png" style=" height:30px;" alt="...">
+    			</div>
+
+    		<div class="col-md-10">
+    			<p style="font-size:16px;"> <b>Introducing BPATC </b></p>
+    			</div>
+
+    		</div>  
+
+    		<div class="row">
+
+    			<div class="col-md-2"> 
+    				<img src="image/NoR.png" style=" height:30px;" alt="...">
+    			</div>
+
+    		<div class="col-md-10" >
+    			<p style="font-size:16px;"> <b>Introducing BPATC </b></p>
+    			</div>
+
+    		</div>  
+  		
+	 
               </div>
             </div>
                 
@@ -810,7 +1001,7 @@
     		
     	<div class="card-body1" >
     		<button type="button" class="btn btn-primary bti" data-toggle="button" aria-pressed="false" autocomplete="off">
-  			Single toggle
+  			LMS
 			</button>
   		</div>
   		</div>
@@ -822,7 +1013,7 @@
     		
     	<div class="card-body1" >
     		<button type="button" class="btn btn-primary bti" data-toggle="button" aria-pressed="false" autocomplete="off">
-  			Single toggle
+  			IMS
 			</button>
   		</div>
   		</div>
@@ -833,7 +1024,7 @@
     		<img src="image/1.jpg" class="card-img-top img-size" alt="...">
     	<div class="card-body1" >
     		<button type="button" class="btn btn-primary bti" data-toggle="button" aria-pressed="false" autocomplete="off">
-  			Single toggle
+  			TMS
 			</button>
   		</div>
   		</div>
@@ -844,7 +1035,7 @@
     		<img src="image/1.jpg" class="card-img-top img-size" alt="...">
     	<div class="card-body1" >
     		<button type="button" class="btn btn-primary bti" data-toggle="button" aria-pressed="false" autocomplete="off">
-  			Single toggle
+  			HRMS
 			</button>
   		</div>
   		</div>
@@ -855,7 +1046,7 @@
     		<img src="image/1.jpg" class="card-img-top img-size" alt="...">
     	<div class="card-body1" >
     		<button type="button" class="btn btn-primary bti" data-toggle="button" aria-pressed="false" autocomplete="off">
-  			Single toggle
+  			E-Learning
 			</button>
   		</div>
   		</div>
@@ -870,7 +1061,7 @@
 
     <!-- photogallary section start-->
 
-    <section class="photogallary mt-2">
+    <section class="photogallary mt-2" style="margin-bottom:100px;">
         <div class="use">
 
         <div class="card-deck">
@@ -919,7 +1110,144 @@
 
     </section>
 
-<!-- photogallary section end-->
+<!-- photogallary section end
+	<footer style="margin-bottom:50px; margin-top:50px;">
+
+		<img src="image/BG-Footer.png" alt="footer" style=" height:200px; width:100%; background-repeat:no-repeat; background-size:cover;">
+	</footer>--> 
+
+	   <footer class="footer mt-4">
+
+    	<div >
+    		<div class="row text-center">
+    			<h3></h3>
+    			<div class="col-md-3"  style="margin:0px;">
+    				
+    				<div  style="padding-top:50px;">
+    				<p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1480068715014!2d90.37202681445633!3d23.77774329364924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c74cd5bf5e7f%3A0xa7defae379e061d9!2sElectoral%20Training%20Institute%20(ETI)!5e0!3m2!1sen!2sbd!4v1583655582006!5m2!1sen!2sbd" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-3"  style=" margin:0px;">
+    				<h4>Featured Links</h4>
+    				<hr id="border1"> 
+
+    				<div id="links" style="padding-top:30px;">
+
+    					<i class="fa fa-angle-right" aria-hidden="true"></i>
+    					<a href="#" class="option">NID correction form-2</a><br>
+
+    					<i class="fa fa-angle-right" aria-hidden="true"></i>
+    					<a href="#" class="option">NID Wing</a><br>
+
+    					<i class="fa fa-angle-right" aria-hidden="true"></i>
+    					<a href="#" class="option">National Web Portal</a><br>
+
+    					<i class="fa fa-angle-right" aria-hidden="true"></i>
+    					<a href="#" class="option">BPATC</a><br>
+
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+    					<a href="#" class="option">BCS Admin Academy</a>
+    				
+    				</div>
+    				
+    			</div>
+
+    			
+
+
+    			<div class="col-md-3"  style="margin:0px; padding:0px;">
+    				<h4>Form Download</h4>
+    				<hr id="border2">
+    				
+    					<div class="line-1">
+
+    					<div class="row" style="margin:0px; padding:0px;">
+    						<div class="col-md-2" style="padding:0px;">	
+    						<i class="fa fa-file-text-o" id="icon1" aria-hidden="true"></i></div> 
+    						<div class="col-md-8">
+    						<p style=" padding:0px;">NID correction form-2</p></div> 
+    						<div class="col-md-1" style="padding:0px;">
+    						<a href="#" class="btn btn-info" id="download" role="button">Download</a></div>
+    					</div>
+    				</div>
+
+    					<div class="line-1">
+    						<div class="row" style="margin:0px; padding:0px;">
+    						<div class="col-md-2" style="padding:0px;">
+    						<i class="fa fa-file-text-o" id="icon1" aria-hidden="true"></i> </div> 
+    						<div class="col-md-8">
+    						<p style=" padding:0px;">Voter transfer form</p> </div> 
+    						<div class="col-md-1" style="margin:0px;">
+    						<a href="#" class="btn btn-info" id="download" role="button">Download</a> </div>
+    					</div>
+    				</div>
+
+    					<div class="line-1">
+    						<div class="row" style="margin:0px; padding:0px;">
+    						<div class="col-md-2" style="padding:0px;">
+    						<i class="fa fa-file-text-o" id="icon1" aria-hidden="true"></i> </div> 
+    						<div class="col-md-8">
+    						<p style=" padding:0px;">NID correction form-2</p> </div>
+    						<div class="col-md-1" style="padding:0px;">
+    						<a href="#" class="btn btn-info" id="download" role="button">Download</a> </div>
+    					</div>
+    				</div>
+
+    				<!--<div id="verticle-line1"> </div>-->
+    			</div>
+
+
+
+    			<div class="col-md-3" style="margin:0px;">
+    				<h4>Find Us</h4>
+    				<hr id="border3">
+    				<div>
+    					<div class="row">
+    						<div class="col-md-2">
+    					<i class="fa fa-envelope-o" id="icon1" aria-hidden="true"></i></div> 
+    					<div class="col-md-9">
+    					<p>dg_eti@yahoo.com</p></div>
+    					</div>
+
+    						<div class="row">
+    						<div class="col-md-2">
+    					<i class="fa fa-phone" id="icon1" aria-hidden="true"></i> </div>
+    						<div class="col-md-9">
+    					<p> +88 02 8181 731 </p></div>
+    					</div>
+
+    					<div class="row">
+    						<div class="col-md-2">
+    					<i class="fa fa-file-text-o" id="icon1" aria-hidden="true"></i></div>
+    				
+    				<div class="col-md-9">
+    					<p> Plot-E, 14/Z, Agargoan,<br>Dhaka-1207</p></div>
+    				</div>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<div class="row" style=" text-align:center; margin-top:150px; margin-left:180px;">
+    		<div class="col-md-12">
+    			<i class="fa fa-envelope-o" id="icon1" aria-hidden="true"></i>
+    			<i class="fa fa-envelope-o" id="icon1" aria-hidden="true"></i>
+    			<i class="fa fa-envelope-o" id="icon1" aria-hidden="true"></i>
+
+    		</div>
+    	</div>
+
+    	<div class="row" style="float:right;">
+    		<div class="col-md-12">
+    			<p>copyright text .....</p>
+    		</div>
+
+    	</div>
+
+
+        
+    </footer> 
 
 
 
