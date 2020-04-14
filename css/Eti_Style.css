@@ -357,6 +357,27 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+.rectengular_serial{
+	background-color: #047d1fe3;
+    border: 2px solid #68b2ff;
+    color: white;
+    width: 29%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 50%;
+    grid-area: overlap;
+    align-self: center;
+    position: relative;
+    left: -29%;
+}
+.notice_date{
+	text-align: center;
+    margin-right: 40px;
+    font-size: 20px;
+    color: #ffffff;
+}
 .margin3 {
 	padding: 1% 0px;
 }
