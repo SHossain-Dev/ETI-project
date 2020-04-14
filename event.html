@@ -183,7 +183,20 @@
   	<div class="row">
 
   		<div class="col-md-3">
-  			<img src="image/event.png" alt="logo" style=" height:100px; width:100px; background-color:black;">
+
+  			<!-- shape position problem -->
+  			<div class="row">
+  				<div class="col-md-6" style = "height: 80px; width: 80px; background-color: #555;"> 
+
+  					<div style = "height: 80px; width: 80px; background-color: black; z-index: 1;"> </div> 
+  				</div>
+
+  				<div class="col-md-6" style="width: 0; height: 0; border-top: 40px solid transparent; border-left: 40px solid #555; border-bottom: 40px solid transparent;"> 
+
+  					<div style="width: 0; height: 0; border-top: 40px solid transparent; border-left: 40px solid black; border-bottom: 40px solid transparent; z-index: 1;"> </div>
+  				</div>
+  			</div>
+  			<div style="width: 100px; height: 50px; transform: skew(-20deg); background-color:blue; position:relative; overflow:hidden; top:-20px; "></div>
   		</div> 
 
 
