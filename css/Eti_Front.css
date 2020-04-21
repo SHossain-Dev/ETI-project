@@ -1,0 +1,809 @@
+/* CSS Document */
+	
+
+	*{
+    	padding: 0;
+    	margin: 0;
+    	outline:0;
+    }
+
+    body{
+            margin: 5%;
+            margin-top: 0%;
+            margin-bottom: 0%;
+        }
+/*Breaking news and briefing section start*/
+    .tag {
+    	color:white; 
+    	font-size: 17px; 
+    	align-content: center; 
+    	padding-top:12px; 
+    	padding-bottom: 0px; 
+    	padding-left:20px; 
+    	padding-right: 40px;
+    	background-color:rgba(0,0,255,0.3);
+    }
+    .brackingnewa {
+    	padding:0px; 
+    	margin:0px;
+    }
+
+    .marque {
+    	color:white; 
+    	font-size:17px; 
+    	padding-top:12px;
+    }
+
+    .time {
+    	align-content: center; 
+    	padding-top:0px; 
+    	padding-bottom: 0px; 
+    	padding-left:20px; 
+    	padding-right: 40px; 
+    	width: 120px;
+    	text-align: center;
+    }
+
+ /*Breaking news and briefing section end*/   
+
+/*---nav section start--*/
+
+    .navbar-brand{
+    	height: 100px ;
+    	width: 100px;
+    }
+
+    .navbar-light {
+		width: 100%;
+		padding:0px;
+		margin:0px;
+		background-color: #4A9CEE;
+	}
+
+	.ribbon_bookmark {
+		padding-right: 16px; 
+		padding-left: 15px; 
+		padding-top:15px; 
+		margin-right: auto; 
+		margin-left: auto;
+	}
+
+	.nav_font_size {
+		font-size:16px; 
+		color:white;
+	}
+/*---nav section end--*/
+
+/*--Dc section start--*/
+
+	.i-decoration {
+		box-shadow:7px 7px 5px grey;
+	}
+
+	.circle-icon {
+		top: -60%; 
+		position: relative; 
+		left: 4%;
+	}
+	.dcsec {
+		float:right; 
+		background-color: white;
+        color: black;  
+        padding: 10px; 
+        text-align: center; 
+        font-size: 25px; 
+        border-radius: 50%;        
+        box-shadow:4px 4px 5px black;
+	}	
+
+/*--Dc section end--*/
+
+ /*notice right section start--*/ 
+
+ 	.iconimage {
+ 		height:30px;
+ 	}
+
+ 	.textfont {
+ 		font-size:16px;
+ 	}
+ /*notice right section end--*/
+
+ /* photogallary section start */
+ 	.photogallary {
+ 		margin-bottom:100px;
+ 	}
+
+ 	.iconecircle {
+ 		top: -20%; 
+ 		position: relative; 
+ 		left: 4%;
+ 	}
+ 	.circle-style {
+ 		float:right; 
+ 		background-color: white;
+        color: black;  
+        padding: 10px; 
+        text-align: center; 
+        font-size: 25px; 
+        border-radius: 50%; 
+        box-shadow:4px 4px 5px black;
+ 	}
+
+ /* photogallary section end */
+
+
+
+
+
+ /* Carousel image/ header design */
+
+
+    .carousel-inner img {
+    	height:400px;
+    	width:100%;
+    }
+
+    
+
+    .carousel-item:after {
+    	content: "";
+    	display: black;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 400px;
+    	/* background-color: rgba(0,0,0,0.5); */
+    }
+    .bg-light {
+    	background-color: rgba(0,0,0,0) !Important;
+    }
+    
+    .main-nav {
+    	position: absolute;
+    	top:60px;
+    	left:0;
+    	width:100%;
+    	z-index:2000;
+    }
+    .center{
+    	color:white;
+    }
+/* Header with Background Slider end */
+
+
+
+
+/* Breaking news and briefing section end style  */ 
+
+/*  Nav bar Section start  */ 
+
+    .start {
+    	width: 100%;
+    }
+    
+    .navbar-nav {
+    	width:100%;
+    }
+    .page1 {
+    	width: 8.00%;
+    	text-align:center;
+    }
+    .about_us {
+    	width: 14.00%;
+    	text-align:center;
+    }
+    .verticle_line{
+    	border-left: 2px solid #ffffff;
+    }
+    .feculti_member {
+    	width: 14.00%;
+    	text-align:center;
+    }
+    .training {
+    	width: 14.00%;
+    	text-align:center;
+    }
+    .contact{
+    	width: 12.00%;
+    	text-align:center;
+    }
+    .publication {
+    	width: 14.00%;
+    	text-align:center;
+    }
+    .organogram {
+    	width: 14.00%;
+    	text-align:center;
+    }
+    .research {
+    	width: 20.00%;
+    	text-align:center;
+    }
+/*  Nav bar Section end  */ 
+
+
+/*  Event/ Cources / workplan  section start  */
+
+	.work-section {
+		height: 200px;
+		width: 100%;
+		position: relative; 
+		top: 50px;
+	}
+	.work-section2 {
+		height: 100px;
+		width: 100%;
+		background-color: #3B7EB2;
+	}
+	
+
+/*  Event/ Cources / workplan  section end  */
+
+
+/*  Breaking news and briefing section start  */
+
+	.news-20 {
+		height: 50px;
+		width: 100%;
+		background-color: #3C7FB3;"
+	}
+	.news-read {
+		margin: 0px;
+	}
+	.tag {
+		height: 50px;
+		width: 100%;
+	} 
+	.marquee {
+		width: 100%;
+		direction: left;
+		height: 50px; 
+		color:white;
+		line-height: 50px;
+		text-align: center;
+	}
+	.search-B {
+		height: 50px;
+		width: 100%;
+	}
+	.time {
+		height: 50px;
+		width: 100%;
+	}
+	.w-decoration {
+		height: 250px;
+		width: 100%;
+	}
+	.r-decoration {
+		margin: 0px;
+	}
+	.i-decoration {
+		height: 250px;
+		width: 100%;
+		padding: 0px;
+		box-shadow: 5px 5px rgba(1, 1, 1, 0.4);
+		z-index: 1;
+	}
+	#img-style {
+		 width:100%;
+		 height:250px;
+		 object-fit:cover;
+	 }
+	.image_description {
+	 	border: 1px solid black;
+	 	position: relative;
+	 	top: 16px; 
+	 	left: -10%;
+	 	max-height: 250px;
+	 	overflow: hidden;
+	 	box-shadow: 10px 5px 10px #5d5b5b69;
+	 }
+
+	.content  {
+		text-align: center; 
+		color: black;
+	}
+	#text {
+		margin: 20px;
+		margin-top: 0px; 
+		text-align: justify;
+	}
+
+	/* DC image section */
+	.DC {
+		height: 260px;
+		width: 100%;
+		/*border-right: 1px solid ;*/
+	}
+	.img-DC {
+		height: 220px;
+		width: 70%;
+		margin: 0 auto;
+		position: relative;
+		top: 10px;
+	}
+	#imgdc {
+		width:100%;
+		height:220px;
+		position: relative;
+		top:-230px;
+
+	}
+	.img-name {
+		height: 60px;
+		width: 100%;
+		position: relative;
+		top:-220px;
+		background-color: rgb(32, 159, 218);
+	}
+
+	.dc-text {
+		margin: 0px; 
+		vertical-align: bottom; 
+		padding-top: 5px; 
+		color: white; 
+		font-weight: bold;
+
+	}
+	.dc-story{
+		margin: 0px; 
+		vertical-align: bottom; 
+		padding-top: 5px; 
+		color: white; 
+		font-weight: bold;
+	} 
+	.dc-back {
+		height: 230px;
+		width: 100%;
+		
+		position: relative;
+		padding-right:50px;
+  		
+
+		background-color: rgb(20, 130, 210);
+	}
+
+
+/*  Breaking news and briefing section end  */
+
+
+
+.search-container {
+  float: right;
+}
+
+.search_input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*.search-container button:hover {
+  background: #ccc;
+}*/
+
+.tag{
+  border-radius: 0px 30px 30px 0px;
+  background-color: #0064C2;
+}
+.time {
+  padding-top: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ribbon {
+  height: 57px;
+  width: 8.00%;
+  position: absolute;
+}
+
+.ribbon_bookmark{
+  background: #ffffff;
+  top: 0px;
+  left: 0px;
+  font-size:17px;
+}
+
+
+.ribbon_bookmark:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  border-left: 25px solid #ffffff;
+  border-right: 25px solid transparent;
+  border-top: 30px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+/* End navbar style */
+
+/* Breaking news and briefing section start style  */ 
+
+.box1{
+  height: 200px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 5px 5px gray;
+}
+
+.icon{
+  position: relative;
+  top:35%;
+  left:35%;
+}
+.box_Name{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+/* Breaking news and briefing section end style  */ 
+
+/* start notice */
+
+.discouse {
+	height: 750px
+	width: 100%;
+	background-color: white;
+	border: 1px solid #3B7EB2;
+}
+.margin {
+	margin: 0px;
+}
+.margin2 {
+	border: 1px solid grey; 
+	background-color: #3B7EB2;
+	box-shadow:10px 5px 10px rgba(94, 94, 95, 0.726); 
+	text-align: center;
+}
+
+#br {
+	margin: 0px;
+}
+.margin3 {
+	padding: 4% 0px;
+}
+.margin4 {
+	margin: 0px;
+}
+.margin5 {
+	border: 1px solid grey; 
+	background-color: #3B7EB2;
+	box-shadow:10px 5px 10px rgba(94, 94, 95, 0.726); 
+	text-align: center;
+}
+#br2 {
+	margin: 0px;
+}
+.margin6 {
+	padding: 4% 0px;
+}
+.margin7 {
+	margin: 0px;
+}
+.margin8 {
+	border: 1px solid grey; 
+	background-color: #3B7EB2;
+	box-shadow:10px 5px 10px rgba(94, 94, 95, 0.726); 
+	text-align: center;
+}
+#hr {
+	margin-bottom: 0px;
+}
+.margin9 {
+	float: right; 
+	margin: 2px 5%; 
+	padding-top: 0px; 
+	border-radius: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 5%; 
+	padding-right: 5%;
+}
+
+
+
+
+
+
+
+/*  second notice section */
+.style {
+	height: 750px; 
+	width: 100%; 
+	padding-top: 20px; 		
+	padding-bottom: 20px;
+}
+.card-design {
+	max-width: 100%; 
+	height:130px; 
+	box-shadow:5px 10px 4px #e1e3e5;
+}
+.style1 {
+	margin:3px; 
+	width:100%; 
+	height: 150px; 
+	margin-bottom:25px; 
+	box-shadow:5px 10px 4px #e1e3e5;
+}
+.style2 {
+	max-width: 100%; 
+	height:150px; 
+	box-shadow:5px 10px 4px #e1e3e5
+}
+.style3 {
+	margin:3px; 
+	width:100%; 
+	height: 150px; 
+	margin-bottom:25px; 
+	box-shadow:5px 10px 4px #e1e3e5
+}
+
+
+/*second notice section end */
+
+ /*  internal service style  */
+
+
+.internal_service {
+	
+	padding-bottom: 50px;
+}
+
+.distance{
+	width: 20%;
+	height:200px;
+	padding-right: 20px;
+}
+.int-service{
+	height: 200px;
+	width: 100%;
+}
+
+.img-sec {
+	height:150px;
+	border:1px solid black;
+}
+
+.img-size {
+	height:120px; 
+	width:100%;
+}
+.card-body1 {
+
+	border-radius: 0px; 
+	position: relative; 
+	bottom: -15px; 
+	left: 30%;
+
+}
+.bti {
+	left:30%;
+	width:110px;
+}
+
+ /*  internal service style end  */
+
+/* photogallary section start */
+
+.photogallary {
+	height: 200px;
+	width: 100%;
+}
+.f1 {
+	/*line-height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;*/
+	box-shadow:-10px 10px #1067f6;
+}
+.f2 {
+	box-shadow: 10px 10px #1067f6;
+}
+
+/* photogallary section end */
+
+
+
+
+
+
+
+
+
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container_1 {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/*--footer design section start --*/
+
+	.footer_img {
+	  	background-image: url('image/footer.png');
+	  	background-repeat:no-repeat;
+	  	background-size:cover;
+
+		background-position: center center; 
+		background-clip: border-box; 
+		background-attachment: fixed;
+
+	}
+
+	#border1 {
+	    display: block;
+	    unicode-bidi: isolate;
+	    margin-block-start: 0.5em;
+	    margin-block-end: 0.5em;
+	    margin-inline-start: auto;
+	    margin-inline-end: auto;
+	    overflow: hidden;
+	    border-style: inset;
+	    border-width: 0.5px;
+	    border-color: black;
+    }
+
+    #links {
+		float:left;
+		text-align: left;
+    }
+
+	/* #ico {
+
+
+	  background-color: #68b2ff; 
+
+	  border: 2px solid #ffffff;
+	  color: white;
+	  padding: 15px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px; 
+	  border-radius: 50%;
+	}*/
+
+	#download {
+		background-color:black;
+		text-decoration:white;
+	}
+
+	.option {
+		color:black;
+	}
+
+	.option:hover {
+		color: #68b2ff;
+
+	}
+
+	.line-decoration {
+		float:left;
+		width: 100px;
+
+	}
+
+	.footer {
+		padding-top:30px;
+		height:620px;
+		/*display:none;*/
+	}
+
+	.footer_img {
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-clip: border-box;
+	    background-attachment: fixed;
+
+	}
+
+	.map {
+		position: relative; 
+		top: 35px; 
+		left: 2%;
+	}
+
+	.height {
+		padding-top:65px;
+	}
+
+	.featured-div {
+		margin:0px; 
+		padding-top:2%; 
+		padding-right:0px;  
+		border-right:1px solid black;
+	}
+
+	#border1 {
+		border-color: black; 
+		margin-top:2%; 
+		width:90%;
+	}
+	#links {
+		padding-top:30px; 
+		float:left; 
+		margin-left:10%; 
+		text-align: left;
+	}
+	.form-dewnload {
+		margin:0px; 
+		padding-top:2%; 
+		padding-left:0px;
+	}
+	#position {
+		float:left;
+	}
+	#border-style {
+		border-color: black; 
+		padding:0px;
+		margin:0px; 
+		margin-top:12%;  
+		width:90%;
+	}
+	#div-pos {
+		margin-top: 10%; 
+		left:-4%;
+	}
+
+	.line-1 {
+		float:left; 
+		margin:0px; 
+		padding:0px;
+	}
+
+	.div-run {
+		margin:0px; 
+		padding:0px;
+	}
+	.div-running {
+		padding:0px; 
+		margin:0px; 
+		margin-top:10%; 
+		margin-right:5%;
+	}
+	#ico {
+		background-color: #68b2ff; 
+		border: 2px solid #ffffff; 
+		color: white; 
+		padding: 10px; 
+		text-align: center; 
+		text-decoration: none;
+		display: inline-block; 
+		font-size: 16px; 
+		border-radius: 50%;
+	}
+
+
+
+
+ /*--footer design section end --*/ 
