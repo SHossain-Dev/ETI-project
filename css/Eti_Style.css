@@ -635,7 +635,12 @@ svg {
 	width: 100%;
 	background-color: white;
 	border: 1px solid #3B7EB2;
-}
+	}
+	
+	.col_Download {
+		margin-left:40px; 
+		margin-top:40px;
+	}
 	#download {
 
   		border-radius: 25px;
