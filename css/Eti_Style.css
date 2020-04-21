@@ -552,3 +552,101 @@ svg {
 	background-size:cover;
 
 }
+
+
+/*-----Start Anual_plan_Program-------*/
+
+	.dropdown {
+		margin-top:30px;
+	}
+
+	.square {
+     	height: 20px;
+  		width: 20px;
+  		background-color: blue;
+  		box-shadow: 4px 4px grey;
+    }
+
+	.heading {
+		height:50px;
+		width: 100%;
+		background-color:blue;
+		text-align:left;
+		margin-bottom: 20px;
+		color: white;
+	}
+	#dropdownMenuButton {
+		background-color: blue;
+		width:150px;
+		height:30px; 
+		margin-bottom:10px;
+		padding-top:0px; 
+		padding-bottom: 0px; 
+		padding-left:20px; 
+		padding-right: 40px; 
+		text-align: center; 
+		box-shadow: 2px 2px 3px grey;
+	}
+
+	.rowStyle{
+		margin:0px; 
+		padding:0px; 
+		box-shadow: 2px 2px 3px grey; 
+		height:425px; 
+		width:100%; 
+		margin-bottom:30px;
+	}
+
+	.nameStyle {
+		font-size:20px; 
+		text-align:center; 
+		color:white;
+		margin-top:0px; 
+		padding-bottom:0px;
+		height:50px; 
+		width:100%; 
+		padding-left:20px; 
+		padding-right:20px; 
+		padding-top:10px; 
+		padding-bottom:10px; 
+		background-color: blue;
+	}
+
+	.inlinePlan {
+		margin: 0px; 
+		height:30px; 
+		width:300px; 
+		margin-top:15px; 
+		text-align:justify;
+	}
+
+	.textStyle {
+		float:left; 
+		font-size:18px;
+	}
+
+	.fa {
+		float:right; 
+		margin-top:4%;
+	} 
+
+	.discouse {
+	height: 750px
+	width: 100%;
+	background-color: white;
+	border: 1px solid #3B7EB2;
+}
+	#download {
+
+  		border-radius: 25px;
+  		background: black;
+  		padding-top:0px;
+  		padding-bottom: 0px;
+  		padding-left:30px;
+  		padding-right: 40px;
+  		width: 140px;
+ 		text-align: center;
+ 		margin-bottom:25px;
+	}
+
+/*-----End Anual_plan_Program-------*/
